@@ -1,6 +1,6 @@
 # idk
 Idiotic Doodle Killer
 
-An Idiotic Doodle Killer. Replicate basic behavior of doodle.com in a single PHP file.
+A goofy attempt at replicating doodle.com in a single PHP file.
 
-This is probably really insecure. Use at your own risk.
+It's probably really insecure. Use at your own risk.
