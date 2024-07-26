@@ -89,6 +89,9 @@ function parse_conf($txt){
     if(strlen($line) == 0){
       continue;
     }
+    if(strpos($line, "#") === 0){
+      continue;
+    }
     if(strpos($line, ":") === 0){
       $idx = trim($line, ": ");
       $rv[$idx] = array();
