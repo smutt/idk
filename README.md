@@ -8,7 +8,12 @@ It's probably insecure. Use at your own risk.
 ## Explanation
 
 To use, create a directory under where you've placed idk.php. Each
-event requires its own directory.
+event requires its own directory. The directory name is then passed
+via HTTP GET to idk.php as the ```ding``` variable.
+
+Example:
+
+```https://www.example.com/idk.php?ding=birthday```
 
 For each directory, a file (conf) contains information about the
 event.
