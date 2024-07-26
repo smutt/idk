@@ -57,7 +57,8 @@ The options for each choice.
 
 ### Example conf file
 
-<code>
+```
+
 : title
 Bob's Birthday Party
 
@@ -87,4 +88,5 @@ August 11, 18:00 - 22:00
 yes
 yes-but-painful
 I-might-be-late
-</code>
+
+```
