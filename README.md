@@ -95,3 +95,7 @@ yes-but-painful
 I-might-be-late
 
 ```
+
+## Results
+To generate results do something like the following in the ding directory..
+```ls|grep -v conf|xargs grep -h "::"|grep -v Animal|sort|uniq -c```
