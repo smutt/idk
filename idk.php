@@ -1,6 +1,21 @@
 <?php
-// Idiotic Doodle Killer (IDK)
-// Replacement for doodle.com in a single PHP file
+/*
+    Idiotic Doodle Killer (IDK), https://github.com/smutt/idk
+    Copyright (C) 2024 Andrew McConachie <andrew@depht.com>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+*/
 
 $MAX_RESPONSES = 20; // Maximum number of responses we'll accept
 $MIN_CHARS_NAME = 3; // Minimum number of characters allowed in name
